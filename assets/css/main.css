@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+.clock {
+    width: 700px;
+    height: 700px;
+    border: 10px solid dodgerblue;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.number {
+    position: absolute;
+    color: red;
+    font-size: 70px;
+    font-weight: bold;
+    transform-origin: 50% 100%;
+    text-align: center;
+}
+
+.clock div {
+    position: absolute;
+    bottom: 50%;
+    left: 47%;
+    /* transform-origin: bottom; */
+    /* transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.3, 1); */
+}
+
+.aylana {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: -5005px;
+    top: 330px;
+}
+
+.soat {
+    width: 12px;
+    height: 180px;
+    background-color: dodgerblue;
+    transform-origin: 50% 100%;
+    border-radius: 5px;
+}
+
+.minut {
+    width: 8px;
+    height: 250px;
+    background-color: #ff6347;
+    transform-origin: 50% 100%;
+    border-radius: 5px;
+}
+
+.second {
+    width: 4px;
+    height: 280px;
+    background-color: #00ff00;
+    transform-origin: 50% 100%;
+    border-radius: 5px;
+}
